@@ -5,8 +5,11 @@
 --this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command
 --and yes I know the code is shitty but I have reason for that
 --it's double because husam made the getgenv().Alts for cosmo getgenv().alts, both a on the alts are different
-
 --also one more thing I forgot to say from the person that inspired to do lua coding, ENJOY SKIDDERS!!!
+
+
+
+--Alt controls this script is compatible with are; Spooky Control, Cosmo control, Iku Alt Control, GS21
 
 
 --iku first person
