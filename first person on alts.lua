@@ -1,9 +1,6 @@
-    
+  --this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command
+  --and yes I know the code is shitty but I have reason for that
     local ID = game.Players.LocalPlayer.UserID
-    
-    
-    
-    
     if ID == Alts['Alt1'] then
     game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
     end
