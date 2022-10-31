@@ -1,5 +1,9 @@
-  --this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command
-  --and yes I know the code is shitty but I have reason for that
+ --I made this shit to reduce cpu usage because first person gives lower cpu usage than like normal one when you loaded in dh.
+--now since ground(iku prem command) and grave(cosmo prem command) puts the alts underground meaning it wont see anything but since the alts are on 3rd person mode they will still see the floor
+--so now with this script, it will lock the alt's screen to first person mode(you cant undo this). The alts will now only see black even tho it has 3d rendering disabled.
+--I have tested this script and compared the cpu's usage with and without first person mode, as you can already tell first person gives the lesser cpu
+--this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command
+--and yes I know the code is shitty but I have reason for that
     local ID = game.Players.LocalPlayer.UserID
     if ID == Alts['Alt1'] then
     game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
@@ -152,3 +156,10 @@
     if ID == Alts['Alt38'] then
     game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
     end
+--a script that turns on low gfx
+for i, v in pairs(game.Workspace:GetDescendats()) do
+    if v:IsA("Part") then
+        v.Material = Enum.Material.SmoothPlastic
+    end
+end  
+--
