@@ -12,7 +12,7 @@
 --Alt controls this script is compatible with are; Spooky Control, Cosmo control, Iku Alt Control, GS21
 
 
---iku first person
+--iku, gs21, spooky first person
     local ID = game.Players.LocalPlayer.UserID
     if ID == Alts['Alt1'] then
     game:GetService("Players").LocalPlayer.CameraMode = Enum.CameraMode.LockFirstPerson
