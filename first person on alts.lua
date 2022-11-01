@@ -31,3 +31,17 @@ for i, v in pairs(game.Workspace:GetDescendats()) do
     end
 end  
 --
+
+
+
+
+
+
+
+
+
+
+
+
+
+if not hookmetamethod or not getrenv then game.Players.LocalPlayer:Kick("Executer not supported")end;local a=nil;a=hookmetamethod(game,"__namecall",function(...)local b={...}local c=b[1]if getnamecallmethod()=="IsStudio"then return true end;if getnamecallmethod()=="FireServer"and tostring(c)=="MainEvent"then if b[2]=="CHECKER_1"or b[2]=="TeleportDetect"or b[2]=="OneMoreTime"then return nil end end;return a(...)end)
