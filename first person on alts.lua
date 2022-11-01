@@ -25,7 +25,7 @@ print('success on notification')
 end
 
 --a script that turns on low gfx
-for i, v in pairs(game.Workspace:GetDescendats()) do
+for i, v in pairs(game.Workspace:GetDescendants()) do
     if v:IsA("Part") then
         v.Material = Enum.Material.SmoothPlastic
     end
