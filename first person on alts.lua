@@ -19,7 +19,7 @@ if ID==alts['Alt1']then game:GetService("Players").LocalPlayer.CameraMode=Enum.C
 wait()
 print('success on cosmo')
 else
-game.StarterGui:SetCore("SendNotification", {Title = "First Person", Text = "Alt control not supported!", Duration = 15})
+game.StarterGui:SetCore("SendNotification", {Title = "First Person", Text = "Alt control not supported or you removed the """, Duration = 15})
 wait()
 print('success on notification')
 end
