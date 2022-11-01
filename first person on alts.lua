@@ -2,7 +2,7 @@
 --now since ground(iku prem command) and grave(cosmo prem command) puts the alts underground meaning it wont see anything but since the alts are on 3rd person mode they will still see the floor
 --so now with this script, it will lock the alt's screen to first person mode(you cant undo this). The alts will now only see black even tho it has 3d rendering disabled.
 --I have tested this script and compared the cpu's usage with and without first person mode, as you can already tell first person gives the lesser cpu
---this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command
+--this works with iku and cosmo(both should be premium), for iku prem users do the ground command, for cosmo prem users do grave command(Idc about spooky and gs21 it just makes your alts go to first person, still gives lesser cpu)
 --and yes I know the code is shitty but I have reason for that
 
 
