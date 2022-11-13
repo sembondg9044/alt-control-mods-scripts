@@ -9,16 +9,22 @@
 
 --Alt controls this script is compatible with are; Spooky Control, Cosmo control, Iku Alt Control, GS21
 
+--added another iku cuz they decided to change to the encrypt type of getgenv().Alts
+
 local ID = game.Players.LocalPlayer.UserId
 
-if getgenv().AltControl == "iku" or getgenv().AltControl == "gs21" or getgenv().AltControl == "spooky" then   --iku, gs21, spooky first person
+if getgenv().AltControl == "iku1" or getgenv().AltControl == "gs21" or getgenv().AltControl == "spooky" then   --iku, gs21, spooky first person
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iaudhslosontawpbebe/plugins/main/idleheroes.lua"))()
 print('success on iku, spooky and gs21')
 elseif getgenv().AltControl == "cosmo" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iaudhslosontawpbebe/plugins/main/retarded.lua"))()
 wait()
 print('success on cosmo')
-else
+elseif getgenv().AltControl == "iku2" then
+if not getgenv().Settings.HostID then 
+    game:GetService("Players").LocalPlayer.CameraMode=Enum.CameraMode.LockFirstPerson
+end
+else 
 game.StarterGui:SetCore("SendNotification", {Title = "First Person", Text = "Alt control not supported or you removed the """, Duration = 15})
 wait()
 print('success on notification')
